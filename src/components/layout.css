@@ -1,0 +1,34 @@
+.home_layout_wrapper {
+  margin: 0px 12px;
+}
+.item_wrapper {
+  max-width: 177px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.add_bg_icon {
+  position: absolute;
+  right: 5px;
+  background: #fdfdfd;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+.product_image {
+  max-height: 235px;
+  width: 177px;
+}
+.product_price_wrapper {
+  margin-top: 12px;
+}
+.price_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

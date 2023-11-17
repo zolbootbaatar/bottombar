@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+#root {
+  height: 100vh;
+  max-width: 600px;
+  margin: 0px auto;
+  font-family: "Roboto", sans-serif;
+}
+.bottom-nav {
+  max-width: 600px;
+  position: fixed;
+  margin: 0px auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.parent {
+  position: relative;
+}
+
+.child1 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  background-color: #f1f1f1;
+  z-index: 10;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #232323;
+  font-weight: bold;
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #000000;
+}
+
+.top_h_content {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_header {
+  display: flex;
+}
+.right_header {
+  display: flex;
+}
+.fev_item {
+  position: relative;
+}
+.cart_item {
+  position: relative;
+}
+.cart_badge {
+  position: absolute;
+  background: #ff1900;
+  top: 0;
+  right: 0;
+  margin: -8px;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 149.52%;
+  /* identical to box height, or 30px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.4em;
+
+  color: #000000;
+  text-transform: uppercase;
+}
+.cart_count {
+  padding: 5px;
+  font-weight: bold;
+}
+.fev_badge {
+  position: absolute;
+  background: #ff1900;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.box2 {
+  /* height: 200vh; */
+
+  margin: 0px 12px;
+
+  background-color: #f1f1f1;
+}
+.react-modal-sheet-backdrop {
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 600px;
+  margin: 0px auto;
+}
+.react-modal-sheet-container {
+  max-height: 80%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.tabs {
+  flex-grow: 1;
+  display: flex;
+  overflow: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: black;
+}
+
+.selected {
+  background: #eee;
+  padding: 5px 10px;
+}
+.item_tab {
+  padding: 5px 10px;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+}
